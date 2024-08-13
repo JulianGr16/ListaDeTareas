@@ -8,7 +8,7 @@ const agregarTarea = (e) => {
 
   if (dato) {
     let lugar = document.createElement("li");
-    lugar.innerHTML += `${dato} <button type="button" class="btn btn-danger borrar">Eliminar Tarea</button>`;
+    lugar.innerHTML += `${dato} <button type="button" class="btn btn-danger borrar mt-2">Eliminar Tarea</button>`;
     padre.appendChild(lugar);
     borrarTarea();
   } else {
